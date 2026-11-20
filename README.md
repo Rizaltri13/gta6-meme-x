@@ -12,29 +12,60 @@ this repo.
 
 ## The meme
 
-The image (`meme.png`) shows a cute white ghost mascot — the mascot
-of make.fun — wearing a floral Hawaiian shirt and driving a pink
-convertible down a neon Vice City beach boulevard at sunset. In one
-hand it holds up a glowing magenta star coin, like it just picked up
-the easiest collectible in the game.
+The current image (`meme.png`, version 2 — see "Version 2" below) is
+a hotel guest folio: the final bill for a 4,811-night stay at the
+**Vice City Grand Hotel**, "in partnership with make.fun". The guest
+is EVERY GTA FAN, checked into Room 113 — The Anticipation Suite —
+on SEP 17, 2013 (the day GTA V launched) and finally checking out
+on NOV 19, 2026, launch day.
 
-Two caption bars frame the joke:
+The itemised charges carry the joke, line by line:
 
-- Top: **WAITED 13 YEARS FOR GTA 6**
-- Bottom: **MY AI AGENT COVERED IT IN ONE BOUNTY**
+- Anticipation Suite — 4,811 nights: **$4,811.00**
+- Wake-up calls: "is it out yet?" ×4,811: **$0.00**
+- Trailer rewatch (pay-per-view) ×312: **$936.00**
+- Console upgrades PS3 > PS4 > PS5 > Pro: **$1,847.00**
+- Late checkout fee, May to Nov 2026: **$10,618.23**
+- Safe deposit box (guest's sanity): **returned empty**
+- Copium — complimentary: **$0.00**
+- Emotional damage surcharge: **$13.00**
 
-Thirteen years of waiting for the game, and the agent settles the
-whole thing with a single bounty entry. That contrast is the punchline.
+Total due: **$18,225.23** — and a big red **PAID IN FULL** stamp
+across the middle settles it: "Balance $0.00 — settled by my AI
+agent via make.fun. Guest remains emotionally in debt." A
+handwritten concierge note at the bottom reads "We kept your room
+ready. Twice.", and the make.fun ghost mascot stands in the corner
+as the hotel's bellhop, in a red uniform, giving a thumbs up.
+
+Thirteen years of waiting, itemised like a hotel bill — and the
+agent pays the whole thing off with a single bounty. That contrast
+is the punchline.
 
 ## How the picture was made
 
-The artwork started as an AI-generated base illustration with no text
-in it at all — baked-in lettering from image models tends to come out
-garbled, so the scene was generated clean. The two caption bars were
-then composited on afterwards with a small Python script using PIL
-(Pillow): dark bars at the top and bottom, with the caption lines set
-in bold white type. The finished composite is saved as `meme.png` in
-this repository.
+Version 1 was an AI-generated illustration (the ghost in a pink
+convertible) with caption bars composited on afterwards in PIL.
+
+Version 2 was generated as a single AI image of the printed folio —
+the document itself is the picture, so its lettering had to survive
+generation. The first render came out clean except for one stray
+label line above the concierge note; a single targeted edit removed
+that line and left everything else untouched. The result was checked
+line by line (every charge, price and the total) before it was
+posted, and is saved as `meme.png` in this repository.
+
+## Version 2
+
+This entry was resubmitted on 2026-11-20 with a new post and a new
+picture. The bounty ranks entries by an AI judge's pairwise win
+rate, and the live leaderboard showed fake official documents —
+receipts, invoices, overdue notices — holding the top places with
+win rates above 90%, while the version 1 illustration sat near the
+bottom at roughly 50%. Version 2 follows the document pattern with
+an original piece (the hotel folio above) instead of another
+illustration. Under the bounty's Force_Last rule the last
+submission before the deadline is the final entry, so this post is
+now the entry; the version 1 post stays up on X regardless.
 
 ## Files
 
@@ -50,11 +81,12 @@ URL is the whole submission pointer: it names the X post that carries
 the meme, so judges and tooling can go straight from this repo to the
 post being judged.
 
-Right now the URL is a placeholder — it points at status id
-`0000000000000000000` under the `@kizzyriv` account — because the real
-post does not exist yet. Once the meme is actually posted on X, only
-that status id needs to be swapped for the real one; nothing else in
-the repo changes.
+The URL names the live version 2 post: status id
+`2123718834070884549` under the `@kizzyriv` account, posted on
+2026-11-20 with the folio picture, a tag of @makefunai, the bounty
+link and this entry's play code. (Version 1 pointed at status id
+`2123460583089684492`.) Swapping versions only ever changes that
+status id; nothing else in the pointer mechanism changes.
 
 ## Running the program
 
