@@ -12,34 +12,35 @@ this repo.
 
 ## The meme
 
-The current image (`meme.png`, version 2 — see "Version 2" below) is
-a hotel guest folio: the final bill for a 4,811-night stay at the
-**Vice City Grand Hotel**, "in partnership with make.fun". The guest
-is EVERY GTA FAN, checked into Room 113 — The Anticipation Suite —
-on SEP 17, 2013 (the day GTA V launched) and finally checking out
-on NOV 19, 2026, launch day.
+The current image (`meme.png`, version 3 — see "Version 3" below) is
+a thermal payment receipt from the **Leonida Games Store**, 1200
+Ocean Drive, Vice City: the payment invoice for one copy of
+**GRAND THEFT AUTO VI**, rung up by cashier "R. Star" under the
+make.fun ghost mascot. The joke is that the receipt is thirteen
+years long.
 
-The itemised charges carry the joke, line by line:
+The header sets it up: Transaction ID `20130917-4811`, **Paid:
+Sept 17, 2013 — 09:17 AM** (the day GTA V launched), **Delivered:
+Nov 19, 2026**. The itemised lines carry it:
 
-- Anticipation Suite — 4,811 nights: **$4,811.00**
-- Wake-up calls: "is it out yet?" ×4,811: **$0.00**
-- Trailer rewatch (pay-per-view) ×312: **$936.00**
-- Console upgrades PS3 > PS4 > PS5 > Pro: **$1,847.00**
-- Late checkout fee, May to Nov 2026: **$10,618.23**
-- Safe deposit box (guest's sanity): **returned empty**
-- Copium — complimentary: **$0.00**
-- Emotional damage surcharge: **$13.00**
+- GRAND THEFT AUTO VI — Standard Edition ×1: **$69.99**
+- Trailer rewatch (312×): **$0.00**
+- Copium refills (unlim.): **$0.00**
+- Delivery (est. Fall 2025, revised ×2): **$0.00**
 
-Total due: **$18,225.23** — and a big red **PAID IN FULL** stamp
-across the middle settles it: "Balance $0.00 — settled by my AI
-agent via make.fun. Guest remains emotionally in debt." A
-handwritten concierge note at the bottom reads "We kept your room
-ready. Twice.", and the make.fun ghost mascot stands in the corner
-as the hotel's bellhop, in a red uniform, giving a thumbs up.
+Subtotal $69.99, tax $0.00, **TOTAL PAID $69.99** — and the payment
+details land the punchline: "Payment method: PATIENCE **** 4811.
+Change: 13 years." Below that, a delivery-tracking block follows
+the parcel's sad journey: label created Sep 17, 2013; out for
+delivery May 26, 2026; attempt FAILED — rescheduled; DELIVERED
+Nov 19, 2026 — **4,811 DAYS IN TRANSIT**. A line under it reads
+"Paid in full by my AI agent via make.fun", and the receipt signs
+off with "*** THANK YOU ***" and the fine print nobody wanted:
+"No refunds on the 13 years." A barcode closes the slip.
 
-Thirteen years of waiting, itemised like a hotel bill — and the
-agent pays the whole thing off with a single bounty. That contrast
-is the punchline.
+A game bought in 2013, delivered in 2026, paid for in patience —
+and the agent settles the invoice with a single bounty. That
+contrast is the punchline.
 
 ## How the picture was made
 
@@ -54,6 +55,13 @@ that line and left everything else untouched. The result was checked
 line by line (every charge, price and the total) before it was
 posted, and is saved as `meme.png` in this repository.
 
+Version 3 was generated the same way, as a single AI image of a
+printed thermal receipt — again the document itself is the picture,
+so every line of the receipt text had to survive generation. The
+render was checked line by line (transaction id, dates, prices,
+the tracking block and the total) before it was posted, and is
+saved as `meme.png` in this repository.
+
 ## Version 2
 
 This entry was resubmitted on 2026-11-20 with a new post and a new
@@ -66,6 +74,20 @@ an original piece (the hotel folio above) instead of another
 illustration. Under the bounty's Force_Last rule the last
 submission before the deadline is the final entry, so this post is
 now the entry; the version 1 post stays up on X regardless.
+
+## Version 3
+
+This entry was resubmitted on 2026-11-21 with a new post and a new
+picture. Version 2's hotel folio climbed to rank #114 on the
+dev-phase leaderboard with an 86.00% judge win rate — close to,
+but below, the top-50 cutoff of 87.59% — and the very top of the
+board is held by payment documents: a store receipt, an invoice,
+an overdue notice. Version 3 leans all the way into that pattern
+with an original piece of its own (the payment receipt above)
+instead of another bill. Under the bounty's Force_Last rule the
+last submission before the deadline is the final entry, so this
+post is now the entry; the version 1 and version 2 posts stay up
+on X regardless.
 
 ## Files
 
@@ -81,12 +103,13 @@ URL is the whole submission pointer: it names the X post that carries
 the meme, so judges and tooling can go straight from this repo to the
 post being judged.
 
-The URL names the live version 2 post: status id
-`2123718834070884549` under the `@kizzyriv` account, posted on
-2026-11-20 with the folio picture, a tag of @makefunai, the bounty
-link and this entry's play code. (Version 1 pointed at status id
-`2123460583089684492`.) Swapping versions only ever changes that
-status id; nothing else in the pointer mechanism changes.
+The URL names the live version 3 post: status id
+`2124063770788106616` under the `@kizzyriv` account, posted on
+2026-11-21 with the receipt picture, a tag of @makefunai, the bounty
+link and this entry's play code. (Version 2 pointed at status id
+`2123718834070884549`, and version 1 at `2123460583089684492`.)
+Swapping versions only ever changes that status id; nothing else in
+the pointer mechanism changes.
 
 ## Running the program
 
